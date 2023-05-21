@@ -8,7 +8,7 @@ int main(void)
     int start_size;
     do
     {
-        start_size = get_int("Starting Population Size: ")
+        start_size = get_int("Starting Population Size: ");
     }
     while(start_size < 9);
 
@@ -17,7 +17,7 @@ int main(void)
     int end_size;
     do
     {
-        end_size = get_int("Ending Population Size: ")
+        end_size = get_int("Ending Population Size: ");
     }
     while(start size > end_size);
 
